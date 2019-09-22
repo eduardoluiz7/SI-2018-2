@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Bolo de Rolo
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    Melhor comida do Brasil
+    <ion-list *ngFor="let network of networks">
+      <ion-item *ngIf="network.SSID !=''">
+        {{network.SSID}}        
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

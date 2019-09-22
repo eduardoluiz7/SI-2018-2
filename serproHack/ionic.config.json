@@ -1,0 +1,7 @@
+{
+  "name": "boloDeRoloApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
